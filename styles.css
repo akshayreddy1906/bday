@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "wolfalcon";
+    src: url("ww.ttf");
+}
+body {
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#gg-img {
+    width: 150px;
+    border-radius: 20%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.find-out{
+    font-family: "wolfalcon";
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.hint {
+    margin-top: 0;
+}
+
+#first {
+    height: 290px;
+}
+#latest{
+    height: 500px;
+}
+.img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/qf.jpeg");
+    width:100%;
+    background-size: cover;
+}
+
+#first:hover {
+    background-image: url("images/ff4.webp");
+
+}
+
+#famous:hover {
+    background-image:url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbndnZHVkYmh5M3hhZ2Rha2wyM3FwdzFsd2dzNHNpOTMyeWRubnptZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbDm4pTuIEQAviEBQX/giphy.gif");
+}
+
+#country:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmYzZTI4NXQ1cXJ3NXV0ZTk4eXFqaGhyNGx6dGp6YWRoczVnYnVlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4S3P68PpJPYZ1IQe7J/giphy-downsized-large.gif");
+}
+
+#latest:hover {
+    background-image: url("images/hos.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
